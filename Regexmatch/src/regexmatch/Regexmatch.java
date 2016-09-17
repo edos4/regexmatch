@@ -11,7 +11,7 @@ public class Regexmatch {
     }
     
     public static boolean containsFalse(String str){
-        return str.matches(".*false.*");
+        return str.matches(".*true.*");
     }
     
     public static void main(String[] args) throws FileNotFoundException {
@@ -24,4 +24,5 @@ public class Regexmatch {
             System.out.println(sc.nextLine());
         }
     }
+    //adds kababalaghang codes here
 }
